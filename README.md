@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://user-images.githubusercontent.com/66808028/101435841-478e7600-38ca-11eb-98f0-650b335db6e5.png
+![](https://user-images.githubusercontent.com/66808028/101435841-478e7600-38ca-11eb-98f0-650b335db6e5.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, the filebeat-playbook.yml and metricbeat-playbook.yml files may be used to install only certain pieces of it, such as Filebeat or Metricbeat, respectively.
 
@@ -98,13 +98,13 @@ SSH into the control node and follow the steps below:
 
 If the ELK installation completed successfully, you'll see the output below.
 
-https://user-images.githubusercontent.com/66808028/101436522-912b9080-38cb-11eb-8f0b-4c62bba21f4d.png
+![](https://user-images.githubusercontent.com/66808028/101436522-912b9080-38cb-11eb-8f0b-4c62bba21f4d.png)
 
 If the Filebeat installation completed succesfully, you'll see this output when you click "Check Data" under Kibana Homepage > Add Log Data > System Logs > DEB Tab > Module Status.
 
-https://user-images.githubusercontent.com/66808028/101436921-5544fb00-38cc-11eb-9175-03afc027edf8.png
+![](https://user-images.githubusercontent.com/66808028/101436921-5544fb00-38cc-11eb-9175-03afc027edf8.png)
 
 If the Metric Beat installation completed succesfully, you'll see this output when you click "Check Data" under Kibana Homepage > Add Metric Data > Docker Metrics > DEB Tab > Module Status.
 
-https://user-images.githubusercontent.com/66808028/101436985-7dccf500-38cc-11eb-87c6-f5168e41a1b7.png
+![](https://user-images.githubusercontent.com/66808028/101436985-7dccf500-38cc-11eb-87c6-f5168e41a1b7.png)
 
