@@ -72,7 +72,7 @@ The install-elk.yml playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![](https://user-images.githubusercontent.com/66808028/101436317-2bd79f80-38cb-11eb-9877-41cb8469fa3a.png)
+![](/README-Images/docker-ps-output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -98,13 +98,13 @@ SSH into the control node and follow the steps below:
 
 If the ELK installation completed successfully, you'll see the output below.
 
-![](https://user-images.githubusercontent.com/66808028/101436522-912b9080-38cb-11eb-8f0b-4c62bba21f4d.png)
+![](/README-Images/successful-elk.png)
 
 If the Filebeat installation completed succesfully, you'll see this output when you click "Check Data" under Kibana Homepage > Add Log Data > System Logs > DEB Tab > Module Status.
 
-![](https://user-images.githubusercontent.com/66808028/101436921-5544fb00-38cc-11eb-9175-03afc027edf8.png)
+![](/README-Images/successful-filebeat-installation.png)
 
 If the Metric Beat installation completed succesfully, you'll see this output when you click "Check Data" under Kibana Homepage > Add Metric Data > Docker Metrics > DEB Tab > Module Status.
 
-![](https://user-images.githubusercontent.com/66808028/101436985-7dccf500-38cc-11eb-87c6-f5168e41a1b7.png)
+![](/README-Images/successful-metricbeat-installation.png)
 
